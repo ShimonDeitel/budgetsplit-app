@@ -1,0 +1,42 @@
+{
+  "identifier" : "BudgetsplitStoreKitConfig",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+    "_developerTeamID" : "W7Q885Q59C"
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "BudgetsplitProGroup",
+      "localizations" : [],
+      "name" : "Tripside Budget Split Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "2.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "budgetsplit_pro_monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlimited trips, category caps, and week-over-week comparison",
+              "displayName" : "Tripside Budget Split Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.shimondeitel.budgetsplit.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Budgetsplit Pro Monthly",
+          "subscriptionGroupID" : "BudgetsplitProGroup",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
